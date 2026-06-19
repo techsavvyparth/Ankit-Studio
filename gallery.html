@@ -1,0 +1,307 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Ankit Studio Full Gallery - Explore our complete portfolio of wedding, pre-wedding, maternity, baby, and portrait photography in Naroda, Ahmedabad."
+    />
+    <title>Full Gallery | Ankit Studio Naroda</title>
+    <link rel="icon" type="image/png" href="logo.png" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&family=Poppins:wght@300;400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav class="navbar scrolled">
+      <div class="nav-container">
+        <a href="index.html" class="nav-logo">
+          <img
+            src="logo.png"
+            alt="Ankit Studio Logo"
+            style="height: 45px; vertical-align: middle; border-radius: 4px;"
+          />
+        </a>
+
+        <ul class="nav-links">
+          <li><a href="index.html" class="nav-item">Home</a></li>
+          <li><a href="index.html#about" class="nav-item">About</a></li>
+          <li><a href="index.html#featured" class="nav-item">Portfolio</a></li>
+          <li><a href="index.html#services" class="nav-item">Services</a></li>
+          <li><a href="index.html#gallery" class="nav-item active">Gallery</a></li>
+          <li><a href="index.html#contact" class="nav-item">Contact</a></li>
+        </ul>
+
+        <div class="nav-actions">
+          <a href="https://api.whatsapp.com/send?phone=919898763065&text=Hi" target="_blank" rel="noopener" aria-label="WhatsApp">
+            <i class="fab fa-whatsapp"></i>
+          </a>
+          <div class="menu-toggle" id="mobile-menu" aria-label="Toggle Menu">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Main Content Section -->
+    <section class="gallery-section section-padding" style="margin-top: 60px;">
+      <div class="container">
+        <div class="section-header" style="max-width: 800px; margin-bottom: 50px;">
+          <span class="section-tagline">PORTFOLIO DEEPDIVE</span>
+          <h1 class="section-title">Complete Gallery</h1>
+          <p class="section-subtitle">
+            Browse through our archives of visual masterpieces. Filter by category to view our expertise.
+          </p>
+        </div>
+
+        <!-- Category Filters -->
+        <div class="gallery-filter-container">
+          <button class="filter-tab active" data-filter="all">All Work</button>
+          <button class="filter-tab" data-filter="wedding">Wedding & Pre-Wedding</button>
+          <button class="filter-tab" data-filter="maternity-baby">Maternity & Baby</button>
+          <button class="filter-tab" data-filter="portraits">Portraits & Fashion</button>
+        </div>
+
+        <!-- Masonry Grid showing all 14 local images -->
+        <div class="masonry-grid">
+          <!-- WEDDING CATEGORY -->
+          <div class="masonry-item tall" data-category="wedding" data-src="pre-wedding-portrait.avif">
+            <img src="pre-wedding-portrait.avif" alt="Prewedding Portrait" loading="lazy" />
+            <div class="masonry-hover">
+              <h4 class="masonry-item-title">Ethereal Love</h4>
+              <p class="masonry-item-cat">Pre-Wedding Portrait</p>
+            </div>
+          </div>
+
+          <div class="masonry-item large" data-category="wedding" data-src="wedding-lanscape.avif">
+            <img src="wedding-lanscape.avif" alt="Wedding Landscape" loading="lazy" />
+            <div class="masonry-hover">
+              <h4 class="masonry-item-title">Tears of Joy</h4>
+              <p class="masonry-item-cat">Wedding Landscape</p>
+            </div>
+          </div>
+
+          <div class="masonry-item" data-category="wedding" data-src="pre-wedding-landscape.avif">
+            <img src="pre-wedding-landscape.avif" alt="Pre-Wedding Landscape" loading="lazy" />
+            <div class="masonry-hover">
+              <h4 class="masonry-item-title">Timeless Bonds</h4>
+              <p class="masonry-item-cat">Pre-Wedding Landscape</p>
+            </div>
+          </div>
+
+          <div class="masonry-item tall" data-category="wedding" data-src="bride-portrait.avif">
+            <img src="bride-portrait.avif" alt="Bride Portrait" loading="lazy" />
+            <div class="masonry-hover">
+              <h4 class="masonry-item-title">The Royal Bride</h4>
+              <p class="masonry-item-cat">Bridal Portrait</p>
+            </div>
+          </div>
+
+          <div class="masonry-item tall" data-category="wedding" data-src="bride-groom-portrait.avif">
+            <img src="bride-groom-portrait.avif" alt="Bride and Groom Portrait" loading="lazy" />
+            <div class="masonry-hover">
+              <h4 class="masonry-item-title">Imperial Wedding</h4>
+              <p class="masonry-item-cat">Couple Portrait</p>
+            </div>
+          </div>
+
+          <div class="masonry-item" data-category="wedding" data-src="bride-groom-portrait-2.avif">
+            <img src="bride-groom-portrait-2.avif" alt="Couple Portrait" loading="lazy" />
+            <div class="masonry-hover">
+              <h4 class="masonry-item-title">Love Eternal</h4>
+              <p class="masonry-item-cat">Wedding Portrait</p>
+            </div>
+          </div>
+
+          <!-- MATERNITY & BABY CATEGORY -->
+          <div class="masonry-item" data-category="maternity-baby" data-src="maternity-landscape.webp">
+            <img src="maternity-landscape.webp" alt="Maternity Landscape" loading="lazy" />
+            <div class="masonry-hover">
+              <h4 class="masonry-item-title">Graceful Bloom</h4>
+              <p class="masonry-item-cat">Maternity Landscape</p>
+            </div>
+          </div>
+
+          <div class="masonry-item tall" data-category="maternity-baby" data-src="maternity-portrait.avif">
+            <img src="maternity-portrait.avif" alt="Maternity Portrait" loading="lazy" />
+            <div class="masonry-hover">
+              <h4 class="masonry-item-title">New Beginnings</h4>
+              <p class="masonry-item-cat">Maternity Portrait</p>
+            </div>
+          </div>
+
+          <div class="masonry-item" data-category="maternity-baby" data-src="baby-landscape.avif">
+            <img src="baby-landscape.avif" alt="Baby Landscape" loading="lazy" />
+            <div class="masonry-hover">
+              <h4 class="masonry-item-title">Pure Innocence</h4>
+              <p class="masonry-item-cat">Baby Landscape</p>
+            </div>
+          </div>
+
+          <div class="masonry-item tall" data-category="maternity-baby" data-src="baby-portrait.avif">
+            <img src="baby-portrait.avif" alt="Baby Portrait" loading="lazy" />
+            <div class="masonry-hover">
+              <h4 class="masonry-item-title">Little Wonders</h4>
+              <p class="masonry-item-cat">Newborn Portrait</p>
+            </div>
+          </div>
+
+          <!-- PORTRAITS & FASHION CATEGORY -->
+          <div class="masonry-item" data-category="portraits" data-src="man-portrait.avif">
+            <img src="man-portrait.avif" alt="Man Portrait" loading="lazy" />
+            <div class="masonry-hover">
+              <h4 class="masonry-item-title">Expressive Frames</h4>
+              <p class="masonry-item-cat">Male Portrait</p>
+            </div>
+          </div>
+
+          <div class="masonry-item tall" data-category="portraits" data-src="model-portrait.avif">
+            <img src="model-portrait.avif" alt="Model Portrait" loading="lazy" />
+            <div class="masonry-hover">
+              <h4 class="masonry-item-title">Radiant Persona</h4>
+              <p class="masonry-item-cat">Fashion Portrait</p>
+            </div>
+          </div>
+
+          <div class="masonry-item" data-category="portraits" data-src="model-landscape.avif">
+            <img src="model-landscape.avif" alt="Model Landscape" loading="lazy" />
+            <div class="masonry-hover">
+              <h4 class="masonry-item-title">Vogue Horizons</h4>
+              <p class="masonry-item-cat">Fashion Landscape</p>
+            </div>
+          </div>
+
+          <div class="masonry-item tall" data-category="portraits" data-src="passport-size-photo.avif">
+            <img src="passport-size-photo.avif" alt="Passport Size Photo" loading="lazy" />
+            <div class="masonry-hover">
+              <h4 class="masonry-item-title">Pristine Formats</h4>
+              <p class="masonry-item-cat">Studio Portrait / Passport</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Lightbox -->
+    <div class="lightbox" id="lightbox">
+      <span class="lightbox-close">&times;</span>
+      <img class="lightbox-content" id="lightbox-img" src="" alt="Lightbox Visual" />
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="container">
+        <div class="footer-top">
+          <a href="index.html" class="footer-logo">ANKIT STUDIO<span>.</span></a>
+          <ul class="footer-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="index.html#about">About</a></li>
+            <li><a href="index.html#featured">Portfolio</a></li>
+            <li><a href="index.html#services">Services</a></li>
+            <li><a href="index.html#contact">Contact</a></li>
+          </ul>
+        </div>
+        <hr class="footer-divider" />
+        <div class="footer-bottom">
+          <p class="copyright">
+            &copy; 2026 Ankit Studio. All Premium Rights Reserved.
+          </p>
+          <p class="credit">Aesthetics inspired by Sol Haus style.</p>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Interactive script logic -->
+    <script>
+      document.addEventListener('DOMContentLoaded', () => {
+        // Floating navbar scroll effect
+        const navbar = document.querySelector('.navbar');
+        window.addEventListener('scroll', () => {
+            if (window.scrollY > 50) {
+                navbar.classList.add('scrolled');
+            } else {
+                navbar.classList.remove('scrolled');
+            }
+        });
+
+        // Mobile menu toggle logic
+        const mobileMenuBtn = document.getElementById('mobile-menu');
+        const navLinksList = document.querySelector('.nav-links');
+        if (mobileMenuBtn) {
+          mobileMenuBtn.addEventListener('click', () => {
+              mobileMenuBtn.classList.toggle('active');
+              navLinksList.classList.toggle('active');
+          });
+        }
+
+        // Close menu on link click
+        document.querySelectorAll('.nav-item').forEach(item => {
+            item.addEventListener('click', () => {
+                if(mobileMenuBtn) mobileMenuBtn.classList.remove('active');
+                if(navLinksList) navLinksList.classList.remove('active');
+            });
+        });
+
+        // Category Filtering Engine
+        const tabs = document.querySelectorAll('.filter-tab');
+        const items = document.querySelectorAll('.masonry-item');
+
+        tabs.forEach(tab => {
+          tab.addEventListener('click', () => {
+            tabs.forEach(t => t.classList.remove('active'));
+            tab.classList.add('active');
+
+            const filter = tab.getAttribute('data-filter');
+
+            items.forEach(item => {
+              const category = item.getAttribute('data-category');
+              if (filter === 'all' || category === filter) {
+                item.classList.remove('hide');
+              } else {
+                item.classList.add('hide');
+              }
+            });
+          });
+        });
+
+        // Lightbox Modal Logic
+        const lightbox = document.getElementById('lightbox');
+        const lightboxImg = document.getElementById('lightbox-img');
+        const lightboxClose = document.querySelector('.lightbox-close');
+
+        items.forEach(item => {
+          item.addEventListener('click', () => {
+            const src = item.getAttribute('data-src');
+            lightboxImg.setAttribute('src', src);
+            lightbox.classList.add('active');
+            document.body.style.overflow = 'hidden';
+          });
+        });
+
+        lightboxClose.addEventListener('click', () => {
+          lightbox.classList.remove('active');
+          document.body.style.overflow = 'auto';
+        });
+
+        lightbox.addEventListener('click', (e) => {
+          if (e.target !== lightboxImg) {
+            lightbox.classList.remove('active');
+            document.body.style.overflow = 'auto';
+          }
+        });
+      });
+    </script>
+  </body>
+</html>
